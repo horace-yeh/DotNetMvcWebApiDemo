@@ -159,6 +159,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\DBTestController.cs" />
+    <Compile Include="Controllers\FormDataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -166,6 +167,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\APIViewModels\CustomReData.cs" />
+    <Compile Include="Models\APIViewModels\FormItem.cs" />
+    <Compile Include="Models\APIViewModels\UserInfo.cs" />
     <Compile Include="Models\ViewModels\Person.cs" />
     <Compile Include="Models\ViewModels\Store.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -223,6 +227,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Uploads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
